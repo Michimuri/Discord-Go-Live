@@ -10,6 +10,7 @@ ___
 As you may know if you use Discord in Linux, there's a bug with the audio in streamings (~~AKA I can't hear your stream~~), and even using third party clients (ex. ligthcord) the issue stills unsolved.
 
 There's a popular solution out there in which you mix your internal audio and your microphone over a new virtual interface, and actually works great. So that's what I did here: made a simple script in which you can easily switch on/off the mixed interface.
+
 ![Main menu preview](Screenshot_preview.png "So this is how it's looks like")
 
 ## Dependencies
