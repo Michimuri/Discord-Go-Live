@@ -2,7 +2,7 @@
 A simple script to stream audio on Discord (Linux)
 
 ## Available in:
-[🇪🇸 Español](README_es)
+[🇪🇸 Español](README_es.md)
 
 🇺🇸 English
 
