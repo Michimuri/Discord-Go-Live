@@ -20,7 +20,7 @@ Hay una solución muy popular en internet en la que mezclas tu audio interno con
 ## Uso
 Solo corre el script en una terminal. Después de iniciar el Go Live, ya puedes compartir tu audio en Discord como si se tratara de tu micrófono (por eso, recuerda desmutearte en Discord para transmitir). No se necesitan pasos extra ni instalar nada.
 
-Discord Go Live toma tu entrada (sink) y salida (source) predeterminada para crear la interfaz Virtual1, así que si quieres usar otra entrada/salida modifica la función `golive` cambiando `@DEFAULT_SINK@` o `@DEFAULT_SOURCE@` por el nombre de tu dispositivo.
+Discord Go Live toma tu salida (sink) y entrada (source) predeterminada para crear la interfaz Virtual1, así que si quieres usar otra entrada/salida modifica la función `golive` cambiando `@DEFAULT_SINK@` o `@DEFAULT_SOURCE@` por el nombre de tu dispositivo.
 (Seguro ya sabes cómo hacerlo, pero si no, para obtener los nombres de tus dispositivos de entrada/salida de audio, corre el comando `$ pactl list X` donde X es `sinks` o `sources`, dependiendo de lo que buscas)
 
 Las opciones de mutear/desmutear están incluídas por si lo necesitas. No obstante, ten en mente que el script lo mutea al activar la interfaz Virtual1 para que el audio de tu micrófono no retorne por tus auriculares.
